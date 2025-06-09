@@ -179,8 +179,7 @@ time | input |output
 
 
 8-to-3 Priority Encoder in Verilog
-
-Overview
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------Overview
 
 In this project, I implemented an 8-to-3 priority encoder in Verilog using behavioral modeling. My goal was to create a circuit that takes an 8-bit input and outputs a 3-bit binary number representing the position of the highest-priority set bit, where the most significant bit (MSB, bit 7) has the highest priority. For example, if the input is 10000000, the output is 111 (7 in binary), and if the input is 00100000, the output is 101 (5 in binary). I used a casez statement to implement the priority logic and wrote a testbench to verify the encoder’s functionality with random inputs. I simulated the design to confirm it works correctly.
 
